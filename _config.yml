@@ -57,6 +57,13 @@ gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+# Collections
+collections:
+  publications: 
+    output: true
+    permalink: /:collection/:path/
+
+
 # SiteMap
 sitemap:
     file: "/sitemap.xml"
