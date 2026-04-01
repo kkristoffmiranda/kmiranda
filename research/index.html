@@ -20,12 +20,7 @@ header-img: "img/research-bg.jpg"
     <div class="blockGroup">
       <ul class="blockGroup-list">
 
-{% for publication in paginator.publications %}
-
-
- {% assign publication = site.publications.first %}
-  {% assign content = publication.content %}
-  
+{% for post in site.publications reversed %}  
 <li class="block">
 <div class="publicationArticle-wrapper">
 
@@ -55,27 +50,6 @@ header-img: "img/research-bg.jpg"
     </div>
   </div>
 </section>
-
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;" >
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer publications</a>
-    </li>
-    {% endif %}
-
-<span class="button-height"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
-
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older publications &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
-
 <br>
 
 </body>
