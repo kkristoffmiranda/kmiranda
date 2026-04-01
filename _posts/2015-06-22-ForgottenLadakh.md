@@ -3,8 +3,8 @@ title: The Fogotten Land of Ladakh
 date: 2015-06-22
 permalink: /posts/2015/06/ForgottenLadakh/
 image: 
-  feature: journal/gapYr/ForgottenLadakh.jpg
-header-img: journal/gapYr/ForgottenLadakh.jpg
+  feature: "journal/gapYr/ForgottenLadakh.jpg"
+header-img: "journal/gapYr/ForgottenLadakh.jpg"
 tags:
   - Gap Year
 ---

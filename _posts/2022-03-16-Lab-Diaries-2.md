@@ -3,8 +3,8 @@ title: 'Lab Diaries 2: Gazing across the face of Europa'
 date: 2022-03-07
 permalink: /posts/2022/03/Lab_diaries_2/
 image: 
-  feature: journal/post3/ld2_1.jpeg
-header-img: journal/post3/ld2_1.jpeg
+  feature: "journal/post3/ld2_1.jpeg"
+header-img: "journal/post3/ld2_1.jpeg"
 tags:
   - Photography
   - Winter sampling

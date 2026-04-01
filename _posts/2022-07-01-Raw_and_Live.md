@@ -3,8 +3,8 @@ title: 'Lab Diaries 3: Raw and LIVE from the Mingan Islands!'
 date: 2022-07-01
 permalink: /posts/2022/07/ManicMingan/
 image: 
-  feature: journal/post5/snorkel.jpeg
-header-img: journal/post5/snorkel.jpeg
+  feature: "journal/post5/snorkel.jpeg"
+header-img: "journal/post5/snorkel.jpeg"
 tags:
   - fieldWork
 ---
