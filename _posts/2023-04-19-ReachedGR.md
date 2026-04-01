@@ -2,8 +2,9 @@
 title: 'Field Journal Entry 1: George River'
 date: 2022-07-09
 permalink: /posts/2023/04/GR
-header: 
-  image: /posts/post7/flight.jpeg
+image: 
+  feature: /journal/post7/flight.jpeg
+header-img: /journal/post7/flight.jpeg
 tags:
   - Indigenous partnerships
 ---

@@ -2,8 +2,9 @@
 title: 'Lab Diaries 4: Attention: Chevreuil!'
 date: 2022-07-09
 permalink: /posts/2022/07/AttentionChevreuil
-header: 
-  image: /posts/post6/wreck.jpeg
+image: 
+  feature: /journal/post6/wreck.jpeg
+header-img: /journal/post6/wreck.jpeg
 tags:
   - islands
   - fieldwork

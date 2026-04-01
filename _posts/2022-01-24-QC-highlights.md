@@ -2,8 +2,9 @@
 title: 'Quick highlights of my new digs'
 date: 2022-01-24
 permalink: /posts/2022/01/QC_highlights/
-header: 
-  image: /posts/post1/qc_hlights10.jpeg
+image: 
+  feature: /journal/post1/qc_hlights10.jpeg
+header-img: /journal/post1/qc_hlights10.jpeg
 tags:
   - Quebec City
   - French
