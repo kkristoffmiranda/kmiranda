@@ -3,8 +3,8 @@ title: 'Lab Diaries 1: Frozen Khashiff meets Frozen Ocean'
 date: 2022-02-04
 permalink: /posts/2022/02/Lab_diaries_1/
 image: 
-  feature: "journal/post2/ld1_1.jpeg"
-header-img: "journal/post2/ld1_1.jpeg"
+  feature: "img/journal/post2/ld1_1.jpeg"
+header-img: "img/journal/post2/ld1_1.jpeg"
 tags:
   - Photography
   - Winter sampling

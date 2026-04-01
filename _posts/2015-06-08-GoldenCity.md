@@ -3,8 +3,8 @@ title: The Golden City of Jaisalmer
 date: 2015-06-08
 permalink: /posts/2015/06/GoldenCity/
 image: 
-  feature: "journal/gapYr/GoldenCity.jpg"
-header-img: "journal/gapYr/GoldenCity.jpg"
+  feature: "img/journal/gapYr/GoldenCity.jpg"
+header-img: "img/journal/gapYr/GoldenCity.jpg"
 tags:
   - Gap Year
 ---

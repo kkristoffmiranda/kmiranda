@@ -3,8 +3,8 @@ title: “Think in terms of a Reading Revolution”
 date: 2015-06-16
 permalink: /posts/2015/06/ReadingRevolution/
 image: 
-  feature: "journal/gapYr/ReadingRevolution.jpg"
-header-img: "journal/gapYr/ReadingRevolution.jpg"
+  feature: "img/journal/gapYr/ReadingRevolution.jpg"
+header-img: "img/journal/gapYr/ReadingRevolution.jpg"
 tags:
   - Gap Year
 ---
