@@ -1,7 +1,7 @@
 .section--publicationWrapper
 {
     width: 100%;
-    background: #000;
+    background: #fff;
     padding-top: 20px;
     position: relative;
     clear: both;
@@ -78,7 +78,7 @@
 
 .blockGroup-list li:nth-child(1).block .publicationArticle-title
 {
-    color: #fff;
+    color: #000000;
     font-size: 1rem;
 }
 
@@ -119,7 +119,7 @@
 
 .blockGroup-list li .publicationArticle-title
 {
-    color: #fff;
+    color: #000000;
     font-size: 0.75rem;
     line-height: 1.5;
 }
@@ -127,7 +127,7 @@
 .blockGroup-list .publicationArticle-wrapper
 {
     position: relative;
-    background: #000;
+    background: #ffffff;
     width: 100%;
     -webkit-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
     box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0);
@@ -137,14 +137,14 @@
 {
     -webkit-transition: -webkit-box-shadow 0.2s cubic-bezier(0.4, 0.4, 0.4, 0.4, 1);
     transition: box-shadow 0.2s cubic-bezier(0.4, 0.4, 0.4, 0.4, 1);
-    -webkit-box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.8);
-    box-shadow: 4px 4px 24px 4px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 4px 4px 4px 4px rgba(55, 55, 55, 0.8);
+    box-shadow: 4px 4px 24px 4px rgba(55, 55, 55, 0.8);
 }
 
 .blockGroup-list .publicationArticle a
 {
     display: block;
-    color: #fff;
+    color: #000;
     margin-top: 0.75rem;
     font-weight: 300;
     text-align: center;
@@ -153,7 +153,7 @@
 .blockGroup-list li:nth-child(2).block .publicationArticle-title
 {
     display: block;
-    color: #fff;
+    color: #000;
     margin-top: 0.75rem;
     text-align: left;
     font-weight: 300;
@@ -162,7 +162,7 @@
 .blockGroup-list li:nth-child(3).block .publicationArticle-title
 {
     display: block;
-    color: #fff;
+    color: #000;
     margin-top: 0.75rem;
     font-weight: 300;
     text-align: right;
@@ -208,7 +208,7 @@
 .blockGroup-list li:nth-child(2).block .block-publicationMeta
 {
     display: block;
-    color: #fff;
+    color: #000;
     font-size: 15px;
     text-transform: uppercase;
     text-align: left;
@@ -219,7 +219,7 @@
     display: block;
     bottom: 0;
     padding-bottom: 10px;
-    color: #fff;
+    color: #000;
     font-size: 15px;
     text-transform: uppercase;
     text-align: right;
@@ -228,7 +228,7 @@
 .blockGroup-list .publicationArticle-title,
 .blockGroup-list .block-publicationMeta
 {
-    color: #fff;
+    color: #000;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;

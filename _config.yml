@@ -66,5 +66,6 @@ sitemap:
         - "/feed/index.xml"
     include_posts:
         - "/writing/"
+        - "/research/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
