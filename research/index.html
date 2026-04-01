@@ -1,54 +1,54 @@
 ---
 layout: page
-description: "Journal"
+description: "Research"
 title: "Research"
-active: journal
+active: research
 header-img: "img/research-bg.jpg"
 ---
 
 <head>
-<link rel="stylesheet" href="{{ site.baseurl }}/css/journal.css" media="screen" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/research.css" media="screen" />
 </head>
 
 <body class="journal">
 <div class="archive">
-  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
+  <h1 class="archive-title" style="display:inline-block;"> Publications </h1>
 
 <div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
-    Browse by <a href="{{ site.baseurl }}/journal/category/">Category</a> or <a href="{{ site.baseurl }}/journal/tag/">Tag</a>
+    Browse by <a href="{{ site.baseurl }}/research/category/">Category</a> or <a href="{{ site.baseurl }}/research/tag/">Tag</a>
   </div>
 </div>
 
-<section class="section--postsWrapper">
+<section class="section--publicationWrapper">
   <div class="container">
     <div class="blockGroup">
       <ul class="blockGroup-list">
 
-{% for post in paginator.posts %}
+{% for publication in paginator.publications %}
 
 
- {% assign post = site.posts.first %}
-  {% assign content = post.content %}
+ {% assign publication = site.publications.first %}
+  {% assign content = publication.content %}
   
 <li class="block">
-<div class="postArticle-wrapper">
+<div class="publicationArticle-wrapper">
 
-<div class="post-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;">
+<div class="publication-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;">
     
-<a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.image.feature %}
-	<img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
+<a href="{{ publication.url | prepend: site.baseurl }}">
+        {% if publication.image.feature %}
+	<img src="{{ site.baseurl }}/img/publicationcover/{{ publication.image.feature }}">
 	{% endif %}
  
  
-        <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
+        <p class="publication-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ publication.title }}
         </p>
 </a>
-        {% if post.subtitle %}
-        <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ post.subtitle }}</p>
+        {% if publication.subtitle %}
+        <p class="publication-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ publication.subtitle }}</p>
         {% endif %}
     
-    <p class="post-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;"> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="publication-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;"> publicationed on {{ publication.date | date: "%B %-d, %Y" }}</p>
 </div>
 
 </div>
@@ -66,7 +66,7 @@ header-img: "img/research-bg.jpg"
 <ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;" >
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer publications</a>
     </li>
     {% endif %}
 
@@ -74,7 +74,7 @@ header-img: "img/research-bg.jpg"
 
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older publications &rarr;</a>
     </li>
     {% endif %}
 </ul>
