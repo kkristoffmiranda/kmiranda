@@ -1,21 +1,18 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+title: Khashiff's webpage
+email: "khashiff.m@gmail.com"
+description: "Khashiff's webpage"
+url: "https://kkristoffmiranda.github.io"
+baseurl: "/kmiranda"
 facebook_username: ""
 twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+instagram_username: "achildwithbeard"
+github_username:  "kkristoffmiranda"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   kmiranda
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +30,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://kkristoffmiranda.github.io/kmiranda/gallery/"  
+  - JOURNAL: "https://kkristoffmiranda.github.io/kmiranda/journal/"
+  - ABOUT: "https://kkristoffmiranda.github.io/kmiranda/about/"
 
 # All translation keys
 translations:
